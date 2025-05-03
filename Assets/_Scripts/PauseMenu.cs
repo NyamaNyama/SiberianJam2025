@@ -36,7 +36,8 @@ namespace _Scripts
 
         public void MainMenu()
         {
-            SceneManager.LoadScene("Menu");
+            Continue();
+            LoadSceneManager.Instance.LoadScene("Menu");
         }
     }
 }
