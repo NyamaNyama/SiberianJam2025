@@ -1,4 +1,5 @@
 using System;
+using _Scripts;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
@@ -15,6 +16,7 @@ public class MainMenu : MonoBehaviour
     private void Start()
     {
         LoadVolume();
+        MusicManager.Instance.PlayMusic("Menu");
     }
 
     public void Play()
@@ -29,15 +31,15 @@ public class MainMenu : MonoBehaviour
 
     public void UpdateMasterVolume(float volume)
     {
-        audioMixer.SetFloat("MasterVolume", volume);
+        audioMixer.SetFloat("MasterVolume", Mathf.Log10(volume) * 20);
     }
     public void UpdateMusicVolume(float volume)
     {
-        audioMixer.SetFloat("MusicVolume", volume);
+        audioMixer.SetFloat("MusicVolume", Mathf.Log10(volume) * 20);
     }
     public void UpdateSoundVolume(float volume)
     {
-        audioMixer.SetFloat("SoundVolume", volume);
+        audioMixer.SetFloat("SoundVolume",Mathf.Log10(volume) * 20);
     }
 
     public void SaveVolume()

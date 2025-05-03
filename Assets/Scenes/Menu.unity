@@ -674,15 +674,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2640769202396041160, guid: 1332c747fda1d5c4f935b3e5d69aa74f, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2640769202396041160, guid: 1332c747fda1d5c4f935b3e5d69aa74f, type: 3}
       propertyPath: m_MaxValue
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2640769202396041160, guid: 1332c747fda1d5c4f935b3e5d69aa74f, type: 3}
       propertyPath: m_MinValue
-      value: -80
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 2640769202396041160, guid: 1332c747fda1d5c4f935b3e5d69aa74f, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
@@ -1219,15 +1219,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2640769202396041160, guid: 1332c747fda1d5c4f935b3e5d69aa74f, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2640769202396041160, guid: 1332c747fda1d5c4f935b3e5d69aa74f, type: 3}
       propertyPath: m_MaxValue
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2640769202396041160, guid: 1332c747fda1d5c4f935b3e5d69aa74f, type: 3}
       propertyPath: m_MinValue
-      value: -80
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 2640769202396041160, guid: 1332c747fda1d5c4f935b3e5d69aa74f, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
@@ -2207,15 +2207,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2640769202396041160, guid: 1332c747fda1d5c4f935b3e5d69aa74f, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2640769202396041160, guid: 1332c747fda1d5c4f935b3e5d69aa74f, type: 3}
       propertyPath: m_MaxValue
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2640769202396041160, guid: 1332c747fda1d5c4f935b3e5d69aa74f, type: 3}
       propertyPath: m_MinValue
-      value: -80
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 2640769202396041160, guid: 1332c747fda1d5c4f935b3e5d69aa74f, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size

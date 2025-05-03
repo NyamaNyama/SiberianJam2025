@@ -7,11 +7,7 @@ namespace _Scripts
     {
         [SerializeField] private AudioLibrary soundLibrary;
         [SerializeField] private AudioSource soundSource;
-
-        protected override void Awake()
-        {
-            base.Awake();
-        }
+        
 
         public void PlaySound3D(AudioClip clip, Vector3 pos)
         {

@@ -73,7 +73,7 @@ AudioSource:
   m_GameObject: {fileID: 708219444675228115}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 5823576061052718967, guid: 502cf0d67bbaa484ca617df9a465aee6, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -202,7 +202,7 @@ AudioSource:
   m_GameObject: {fileID: 3525271423395599894}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -8783147840114468759, guid: 502cf0d67bbaa484ca617df9a465aee6, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
@@ -338,7 +338,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed2aed3ab3849a9882d7963b25287d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tracks: []
+  tracks:
+  - trackName: Menu
+    clip:
+    - {fileID: 8300000, guid: a42436db92344144fafaa9ab43817814, type: 3}
 --- !u!114 &5013391095860797290
 MonoBehaviour:
   m_ObjectHideFlags: 0
