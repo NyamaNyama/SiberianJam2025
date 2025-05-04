@@ -22,11 +22,8 @@ namespace _Scripts
                     {
                         return track.clip[Random.Range(0,track.clip.Length)];
                     }
-                    else
-                    {
-                        return track.clip[0];
-                    }
                     
+                    return track.clip[0];
                 }
             }
 
