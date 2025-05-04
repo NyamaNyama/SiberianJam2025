@@ -8,7 +8,7 @@ namespace _Scripts
     {
         [SerializeField] private AudioSource musicSource;
         [SerializeField] private AudioLibrary musicLibrary;
-
+        
         public void PlayMusic(string musicName, float fadeDuration = 0.5f)
         {
             StartCoroutine(AnimateMusicCrossFade(musicLibrary.GetClipFromName(musicName),

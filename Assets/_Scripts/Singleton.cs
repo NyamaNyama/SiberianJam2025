@@ -17,14 +17,14 @@ namespace _Scripts
                     _instance = FindFirstObjectByType<T>();
                     if (_instance == null)
                     {
-                        GameObject newobj = new GameObject(typeof(T).ToString());
-                        newobj.AddComponent<T>();
-                        DontDestroyOnLoad(newobj);
+                        _instance = new GameObject().AddComponent<T>();
+                        _instance.name = _instance.GetType().ToString();
                     }
                 }
 
                 return _instance;
             }
         }
+
     }
 }
